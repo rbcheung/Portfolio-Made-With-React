@@ -1,3 +1,17 @@
 .App {
   text-align: center;
 }
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+.nav-name {
+  margin-right: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
