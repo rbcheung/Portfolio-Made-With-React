@@ -15,3 +15,26 @@
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
 }
+#home {
+  margin: 100px;
+}
+.hero-img {
+  width: 100%;
+  border: 3px solid #2d2e32;
+  border-radius: 50% 10% / 25%
+}
+#home-title {
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+.home-text {
+  text-align: left;
+}
+.card {
+  margin-top: 25px;
+  color:rgb(56, 55, 55);
+}
+.projimg {
+  height: auto;
+  width: 400px
+}

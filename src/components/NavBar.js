@@ -10,8 +10,8 @@ function NavBar() {
     <h2 className = "nav-name">Ryan Cheung</h2>
     <div className="navbar-nav">
       <a className="nav-item nav-link" href="#">Home</a>
+      <a className="nav-item nav-link" href="#">Work</a>
       <a className="nav-item nav-link" href="#">Contact</a>
-      <a className="nav-item nav-link" href="#">Projects</a>
     </div>
   </div>
 </nav>
