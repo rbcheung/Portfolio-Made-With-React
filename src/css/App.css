@@ -6,6 +6,9 @@
   margin-right: 50px;
   font-family: 'Poppins', sans-serif;
 }
+.nav-item {
+  color:black !important;
+}
 .nav-name {
   margin-right: auto;
   padding-top: 25px;
@@ -14,14 +17,21 @@
   padding-right: 50px;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
+  background-image: linear-gradient(90deg, pink, darkorange);
+  background-clip: text;
+  color: transparent;
+  -webkit-text-stroke: 0.1px black;
 }
 #home {
   margin: 100px;
+  padding: 20px;
 }
 .hero-img {
-  width: 100%;
   border: 3px solid #2d2e32;
-  border-radius: 50% 10% / 25%
+  border-radius: 1.7rem;
+  max-height: 300px;
+  max-width: 300px;
+
 }
 #home-title {
   font-size: 30px;
@@ -30,9 +40,19 @@
 .home-text {
   text-align: left;
 }
+#home-name {
+  font-family: 'Poppins', sans-serif;
+  background-image: linear-gradient(90deg, pink, darkorange);
+  background-clip: text;
+  color: transparent;
+  -webkit-text-stroke: 0.1px black;
+
+}
 .card {
   margin-top: 25px;
   color:rgb(56, 55, 55);
+  border-radius: 1.7rem;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
 }
 .projimg {
   height: auto;

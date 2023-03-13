@@ -1,4 +1,5 @@
 import '../css/App.css';
+import { Link } from 'react-router-dom';
 
 function NavBar() {
   return (
@@ -9,9 +10,9 @@ function NavBar() {
   <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
     <h2 className = "nav-name">Ryan Cheung</h2>
     <div className="navbar-nav">
-      <a className="nav-item nav-link" href="#">Home</a>
-      <a className="nav-item nav-link" href="#">Work</a>
-      <a className="nav-item nav-link" href="#">Contact</a>
+      <Link className="nav-item nav-link" to="/">Home</Link>
+      <Link className="nav-item nav-link" to="/work">Work</Link>
+      <Link className="nav-item nav-link" to="/contact">Contact</Link>
     </div>
   </div>
 </nav>

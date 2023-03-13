@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "name": "SuperHero API App",
+      "image":
+        "../Images/SuperH.png",
+      "summary": "This app allows you to search for your favourite superheros and save them into a list!"
+    },
+    {
+      "id": 2,
+      "name": "Weather Dashboard App",
+      "image":
+        "../Images/WeatherDash.png",
+      "summary": "This app allows you to search a weather in specific areas and also get a 5 day weather forecast to plan around!"
+    },
+    {
+      "id": 3,
+      "name": "Team Profile Generator App",
+      "image":
+        "../Images/TeamGen.png",
+      "summary": "This command-line app generates a team based on user input using node js!"
+    },
+    {
+        "id": 4,
+        "name": "Planner App",
+        "image":
+          "../Images/Planner-App.png",
+        "summary": "This app alows you to schedule appointments using local storage and moment js!"
+    },
+    {
+        "id": 5,
+        "name": "Password Generator App",
+        "image":
+          "../Images/Password-Generator.png",
+        "summary": "This app allows you to create a strong password to use for all your internet activity!"
+    },
+    {
+        "id": 6,
+        "name": "Coding Quiz App",
+        "image":
+          "../Images/Coding-Quiz.png",
+        "summary": "This is a quiz to test your coding knowledge! highscores can be saved!"
+    }
+  ]
