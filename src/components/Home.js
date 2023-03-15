@@ -13,7 +13,7 @@ function Home() {
               <div className="col-sm-6 col-md-6 col-lg-6">
                 <h2 id="home-title"> Hello! My name is</h2>
                 <h1 id = "home-name"> Ryan Cheung 👋 </h1>
-                <p class="home-text">
+                <p className="home-text">
                   I am an aspiring Front-End Web Developer who is currently participating in the edX skills bootcamp in order to gain the skills needed to
                   transition myself into my first Web Developement Role. If you like what you see please get in contact!
                 </p>
