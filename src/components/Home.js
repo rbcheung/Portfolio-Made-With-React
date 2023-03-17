@@ -13,7 +13,7 @@ function Home() {
       <div className="container justify-content-center">
         <div className="row">
           <div className="col">
-            <h1 id="home-name"> Ryan Cheung</h1>
+            <h1 className="title"> Ryan Cheung</h1>
             <p className="home-text">
               Hello my name is Ryan Cheung. I am an <span></span>
               <span className="highlight">

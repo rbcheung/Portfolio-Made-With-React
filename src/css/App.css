@@ -60,19 +60,11 @@ body {
   font-family: 'Titillium Web', sans-serif;
   font-weight: 300;
 }
-#home-name {
+.title{
   font-family: 'Titillium Web', sans-serif;
   font-weight: 900;
   font-size: 100px;
   color: red;
-
-}
-#work-name {
-  font-family: 'Titillium Web', sans-serif;
-  font-weight: 900;
-  font-size: 100px;
-  color: red;
-
 }
 .card {
   margin-top: 25px;
@@ -107,6 +99,15 @@ li {
   box-shadow: 0 0 10px rgb(0 0 0 / 10%);
   padding: 8px;
   background-color: red;
+}
+.contact-icons {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+  padding: 8px;
+  background-color: red;
+  margin: 10px;
 }
 .list1 {
   margin-top: 30px;

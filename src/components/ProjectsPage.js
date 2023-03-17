@@ -5,7 +5,7 @@ import Projects from "../components/projects";
 function ProjectsPage() {
   return (
     <div className="container" id="work">
-      <h1 id="work-name" className = "text-center">Work Gallery</h1>
+      <h1 className = "text-center title">Work Gallery</h1>
       <div className="container text-center">
         <div className="row">
           <div className="col-sm-2 col-md-2 col-lg-2"></div>

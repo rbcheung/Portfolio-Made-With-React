@@ -1,23 +1,42 @@
-import React from 'react'
+import React from "react";
+import "../css/App.css";
+import github from "../Images/github.png";
+import linkedin from "../Images/linkedin.png";
+import mail from "../Images/mail.png";
+import cv from "../Images/cv.png";
 
-
-
-const Projects = (props) => {
-  console.log(props)
-    return (
-      <div className="card">
-        <img
-          src={props.props.image}
-          className="card-img-top"
-          alt={props.props.alt}
-        ></img>
-        <div className="card-body">
-          <h5 className="card-title">{props.props.name}</h5>
-          <p className="card-text">{props.props.summary}</p>
+function Contact() {
+  return (
+    <div id="contact">
+      <div className="container text-center">
+        <div className="row">
+          <div className="col">
+            <ul className="title"> Contact </ul>
+            <li>
+              <img
+                className="contact-icons"
+                src={github}
+                alt="Github Icon"
+              ></img>
+            </li>
+            <li>
+              <img
+                className="contact-icons"
+                src={linkedin}
+                alt="LinkedIn Icon"
+              ></img>
+            </li>
+            <li>
+              <img className="contact-icons" src={mail} alt="Mail Icon"></img>
+            </li>
+            <li>
+              <img className="contact-icons" src={cv} alt="CV icon"></img>
+            </li>
+          </div>
         </div>
       </div>
-    );
-
+    </div>
+  );
 }
 
-export default Projects;
+export default Contact;
