@@ -1,7 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-image: url(../Images/newnewbackground.png);
   background-size: cover;
 }
+
 .App {
   text-align: center;
 }
@@ -18,7 +25,10 @@ body {
   font-size: 17px;
 }
 .nav-item {
-  color:black !important;
+  color:#2d2e32 !important;
+}
+.nav-link:hover {
+  color: red !important;
 }
 .nav-name {
   margin-right: auto;
@@ -51,7 +61,7 @@ body {
   background-color: red !important;
   font-family: 'Titillium Web', sans-serif !important;
   font-weight: 700 !important;
-  color: black !important;
+  color: #2d2e32 !important;
   box-shadow: 0 0 10px rgb(0 0 0 / 10%) !important;
   border: none !important;
 }
@@ -59,6 +69,7 @@ body {
   text-align: left;
   font-family: 'Titillium Web', sans-serif;
   font-weight: 300;
+  color: #2d2e32;
 }
 .title{
   font-family: 'Titillium Web', sans-serif;
@@ -68,20 +79,23 @@ body {
 }
 .card {
   margin-top: 25px;
-  color:rgb(56, 55, 55);
+  color:#2d2e32;
   border-radius: 1.7rem;
   box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+  --bs-card-border-color: #141619 !important;
 }
 .projimg {
   height: auto;
   width: 400px
 }
 #work {
+  margin: 50px;
+  font-family: 'Titillium Web', sans-serif;
+}
+#contact {
   margin: 50px
 }
-.highlight {
-  color: red;
-}
+
 .tech-stack {
   text-align: left;
 }
@@ -114,5 +128,49 @@ li {
 }
 .list2 {
   margin: 19px !important;
+  color:#2d2e32;
+}
+#footer-container {
+  text-align: center;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  background-color: #2d2e32;
+  padding: 3rem 0;
+  width: 100%;
+  margin-top: auto;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  color: white;
+}
+
+#contact-form {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgb(0 0 0 / 9%);
+  padding: 15px;
+}
+.card-img-top {
+  box-shadow: 0 0 10px rgb(0 0 0 / 9%);
+}
+
+.card-body {
+  background-color: #2d2e32;
+}
+.card-text {
+  color: white;
+}
+.card-title {
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+}
+.highlight {
+  color: black;
+  background: linear-gradient(
+    to bottom,
+    transparent 50%,
+    red 50%)
 }
 
