@@ -13,24 +13,24 @@ function Contact() {
           <div className="col">
             <ul className="title"> Contact </ul>
             <li>
-              <img
+              <a href="https://github.com/rbcheung"><img
                 className="contact-icons"
                 src={github}
                 alt="Github Icon"
-              ></img>
+              ></img></a>
             </li>
             <li>
-              <img
+              <a href="https://www.linkedin.com/in/ryan-cheung-bab232159/"><img
                 className="contact-icons"
                 src={linkedin}
                 alt="LinkedIn Icon"
-              ></img>
+              ></img></a>
             </li>
             <li>
-              <img className="contact-icons" src={mail} alt="Mail Icon"></img>
+              <a href="mailto:ryan_cheung@hotmail.co.uk"><img className="contact-icons" src={mail} alt="Mail Icon"></img></a>
             </li>
             <li>
-              <img className="contact-icons" src={cv} alt="CV icon"></img>
+              <a href="https://drive.google.com/file/d/1qeOvHQQ-ZDfuw8MIUKox95NkU_qGsd-X/view?usp=sharing"><img className="contact-icons" src={cv} alt="CV icon"></img></a>
             </li>
           </div>
         </div>

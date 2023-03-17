@@ -56,7 +56,7 @@ function Home() {
               src={profilepic}
               alt="profilepic"
             ></img>
-            <button className ="btn btn-danger"> Download </button>
+            <button className ="btn btn-danger"> Download CV </button>
           </div>
         </div>
       </div>
