@@ -1,10 +1,21 @@
+body {
+  background-image: url(../Images/newnewbackground.png);
+  background-size: cover;
+}
 .App {
   text-align: center;
+}
+.navbar {
+  background-color: #fff !important;
+  box-shadow: 0 0 10px rgb(0 0 0 / 9%);
+  padding: 0px !important;
 }
 .navbar-nav {
   margin-left: auto;
   margin-right: 50px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
 }
 .nav-item {
   color:black !important;
@@ -15,37 +26,52 @@
   padding-bottom: 25px;
   padding-left: 50px;
   padding-right: 50px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px;
-  background-image: linear-gradient(90deg, pink, darkorange);
-  background-clip: text;
-  color: transparent;
-  -webkit-text-stroke: 0.1px black;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 900;
+  color: red
 }
 #home {
   margin: 100px;
   padding: 20px;
 }
 .hero-img {
-  border: 3px solid #2d2e32;
-  border-radius: 1.7rem;
+  border-radius: 50%;
   max-height: 300px;
   max-width: 300px;
+  display: block;
+  margin: auto;
 
 }
-#home-title {
-  font-size: 30px;
-  font-family: 'Poppins', sans-serif;
+.btn-format {
+  display: block;
+  margin: auto;
+}
+.btn {
+  margin-top: 10px !important;
+  background-color: red !important;
+  font-family: 'Titillium Web', sans-serif !important;
+  font-weight: 700 !important;
+  color: black !important;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%) !important;
+  border: none !important;
 }
 .home-text {
   text-align: left;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 300;
 }
 #home-name {
-  font-family: 'Poppins', sans-serif;
-  background-image: linear-gradient(90deg, pink, darkorange);
-  background-clip: text;
-  color: transparent;
-  -webkit-text-stroke: 0.1px black;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 900;
+  font-size: 100px;
+  color: red;
+
+}
+#work-name {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 900;
+  font-size: 100px;
+  color: red;
 
 }
 .card {
@@ -61,3 +87,31 @@
 #work {
   margin: 50px
 }
+.highlight {
+  color: red;
+}
+.tech-stack {
+  text-align: left;
+}
+li {
+  display: inline;
+  margin: 10px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+
+}
+.icons {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+  padding: 8px;
+  background-color: red;
+}
+.list1 {
+  margin-top: 30px;
+}
+.list2 {
+  margin: 19px !important;
+}
+
