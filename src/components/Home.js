@@ -6,7 +6,7 @@ import js from "../Images/javascript.png"
 import node from "../Images/node.png";
 import react from "../Images/react.png"
 
-
+// Home component renders JSX for homepage. Images have been imported to use from images folder.
 function Home() {
   return (
     <div id="home">

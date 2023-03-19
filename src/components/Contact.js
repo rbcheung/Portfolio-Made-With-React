@@ -4,12 +4,14 @@ import github from "../Images/github.png";
 import linkedin from "../Images/linkedin.png";
 import mail from "../Images/mail.png";
 import cv from "../Images/cv.png";
+// Use state imported to allow me to use the useState hook.
 import { useState } from "react"
 
+// contact function renders form and links for github repo, cv, linkedin, email etc.
 function Contact() {
-
+// setting the initial state as "Submit"
   const [value, setValue] = useState("Submit")
-
+// function to change value from "Submit" to "Thank you. I'll be in touch soon" on button click.
   const handleBtn = () => {
     setValue("Thank you. I'll be in touch soon");
   };
@@ -103,6 +105,7 @@ function Contact() {
             ></textarea>
           </div>
           <div className="col-md-12">
+            {/* on click method added to button to render the handlebtn function and change state */}
             <button type="submit" onClick= {handleBtn} className="btn btn=primary">
               {value}
             </button>

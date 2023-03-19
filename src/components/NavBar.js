@@ -1,6 +1,9 @@
 import '../css/App.css';
+// link imported so that that navigation works with react router.
 import { Link } from 'react-router-dom';
 
+
+// This NavBar/Header component renders the JSX for the navbar.
 function NavBar() {
   return (
 <nav className="navbar navbar-expand-lg">

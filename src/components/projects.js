@@ -1,5 +1,7 @@
 import React from "react";
 
+// projects functional component renders props from projectspage where JSON file is imported. dot notation used to access relevant props.
+
 const Projects = (props) => {
   console.log(props);
   console.log(props.props)
