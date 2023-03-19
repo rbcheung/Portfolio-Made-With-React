@@ -12,7 +12,7 @@ function Home() {
     <div id="home">
       <div className="container justify-content-center">
         <div className="row">
-          <div className="col">
+          <div className="col sm-12 col-md-12 col-lg-6">
             <h1 className="title"> Ryan Cheung</h1>
             <p className="home-text">
               Hello my name is Ryan Cheung. I am an <span></span>
@@ -50,7 +50,7 @@ function Home() {
             <li className="list2">React</li>
           </div>
 
-          <div className="col text-center">
+          <div className="col sm-12 col-md-12 col-lg-6 text-center">
             <img
               className="img-fluid hero-img btn-format"
               src={profilepic}

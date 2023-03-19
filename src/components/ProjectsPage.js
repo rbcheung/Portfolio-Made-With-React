@@ -9,7 +9,7 @@ function ProjectsPage() {
       <div className="container text-center">
         <div className="row">
           <div className="col-sm-2 col-md-2 col-lg-2"></div>
-              <div className="cardstyle col-sm-8 col-md-8 col-lg-8">
+              <div className="cardstyle col-sm-12 col-md-12 col-lg-8">
                 {gallery.map((CurrentObject) => (
                   <Projects props={CurrentObject} key={CurrentObject.id}></Projects>
                 ))}

@@ -8,7 +8,7 @@ import Contact from "./Contact";
 function App() {
   return (
     <div id="content">
-      <Router>
+      <Router basename= "/Portfolio-Made-With-React">
         <div>
           <NavBar />
           <Switch>

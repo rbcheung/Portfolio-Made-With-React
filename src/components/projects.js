@@ -2,6 +2,7 @@ import React from "react";
 
 const Projects = (props) => {
   console.log(props);
+  console.log(props.props)
   return (
     <div className="card">
       <a href={props.props.deployed}>
