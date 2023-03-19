@@ -1,70 +1,151 @@
-# Getting Started with Create React App
+# Portfolio Made with React.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This assignment was created to allow me to implement all of the knowledge and skills that I have acrrued over the course of the bootcamp to develop the foundations of my personal portfolio. This portfolio is a work in progress and will be further developed down the road as my skills and knowledge increase!
 
-## Available Scripts
+To hit the requirements of the challenge I had to ensure the following;
 
-In the project directory, you can run:
+## Design
+* Use mobile-first design.
 
-### `npm start`
+* Choose a color palette for your site so it doesn't just look like the default bootstrap theme or an unstyled HTML site.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Make sure the font size is large enough to read and that the colors don't cause eye strain.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Base Requirements
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### The following technologies must be used:
 
-### `npm run build`
+* React
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Navigation using React Router, dynamic rendering, or another third part router
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Your portfolio must contain the following information:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Your name
 
-### `npm run eject`
+### Links to your:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* GitHub profile
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* LinkedIn page
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* Email address
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* CV (in PDF format)
 
-## Learn More
+* Your CV must contain up-to-date projects and professional experience
+ A list of projects (Challenges or Projects). For each project, make sure you have the following:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Project title
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Link to the deployed version
 
-### Code Splitting
+* Link to the GitHub repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* GIF or screenshot of the deployed application
 
-### Analyzing the Bundle Size
+## Required Components
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+At a minimum, your portfolio must render these 6 components:
 
-### Making a Progressive Web App
+* App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* Header
 
-### Advanced Configuration
+* Home page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+* Projects page
 
-### Deployment
+* Project (on Projects page)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+* Contact page
 
-### `npm run build` fails to minify
+## Component Content and Requirements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Each of the following components must follow these guidelines:
+
+## App:
+
+* Must be your top-level component and render all necessary child components
+
+## Header:
+
+* Must be rendered across every page component of the site
+
+* Must contain a Navbar
+
+## Home page:
+
+### This should be a welcome landing page that contains:
+
+* Your Name
+
+* A headshot of you (or an avatar)
+
+* Your brand statement
+
+* Some indication that this is your portfolio site
+
+## Projects page:
+
+* Must render six instances of the Project component dynamically
+
+* Be sure to store your project details data in a JSON file and import it into your project
+
+## Project:
+
+* Must be a reusable component that ingests JSON data as props and renders a single instance for each project
+
+* Must utilize Router props to properly render the right project based on user selection
+
+* Must render the following info:
+
+* Project title
+
+* Link to the deployed version
+
+* Link to the GitHub repository
+
+* GIF or screenshot of the deployed application
+
+## Contact page:
+
+### Must include contact information:
+
+* Email address
+
+* Link to a PDF version of your CV
+
+* Link to your GitHub profile
+
+* Link to your LinkedIn page
+
+* Must have a contact form for handling events
+
+## Updated Social Media Presence
+
+* A good portfolio includes updated skills information and links to your web presence. You should update the following social media accounts as well:
+
+## LinkedIn
+
+* Make sure to update your LinkedIn Profile with the new skills you've acquired since the last time it was updated.
+
+* If you do not have a LinkedIn profile, please create one.
+
+* Update your GitHub profile with pinned repositories featuring those same projects.
+
+
+
+## Portfolio Preview
+
+![Alt text](src/Images/Home.png)
+
+![Alt text](src/Images/Work.png)
+
+![Alt text](src/Contact.png)
+
+
+
+
+
