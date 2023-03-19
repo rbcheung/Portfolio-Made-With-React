@@ -22,7 +22,7 @@ body {
   margin-right: 50px;
   font-family: 'Titillium Web', sans-serif;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 18px;
 }
 .nav-item {
   color:#2d2e32 !important;
@@ -64,12 +64,15 @@ body {
   color: #2d2e32 !important;
   box-shadow: 0 0 10px rgb(0 0 0 / 10%) !important;
   border: none !important;
+  margin: 5px;
 }
 .home-text {
   text-align: left;
   font-family: 'Titillium Web', sans-serif;
   font-weight: 300;
   color: #2d2e32;
+  font-size: 18px;
+  padding: 0 5px;
 }
 .title{
   font-family: 'Titillium Web', sans-serif;
@@ -129,6 +132,7 @@ li {
 .list2 {
   margin: 19px !important;
   color:#2d2e32;
+  font-size: 18px;
 }
 #footer-container {
   text-align: center;

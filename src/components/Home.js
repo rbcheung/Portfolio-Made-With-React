@@ -56,7 +56,7 @@ function Home() {
               src={profilepic}
               alt="profilepic"
             ></img>
-            <button className ="btn btn-danger"> Download CV </button>
+            <a href="https://drive.google.com/file/d/1zWR0VDPgkzG7Rtru1ql2Vk4BCeaD0MPq/view?usp=sharing"><button className ="btn btn-danger"> Download CV </button></a>
           </div>
         </div>
       </div>

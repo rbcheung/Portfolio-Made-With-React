@@ -6,7 +6,8 @@
         "../Images/SuperH.png",
       "summary": "This app allows you to search for your favourite superheros and save them into a list!",
       "alt": "Screenshot of Superhero App.",
-      "link": "https://github.com/rhanciles/SuperHero_Game"
+      "link": "https://github.com/rhanciles/SuperHero_Game",
+      "deployed": "https://rhanciles.github.io/SuperHero_Game/"
 
     },
     {
@@ -16,7 +17,8 @@
         "../Images/WeatherDash.png",
       "summary": "This app allows you to search a weather in specific areas and also get a 5 day weather forecast to plan around!",
       "alt": "Screenshot of Weather Dashboard App.",
-      "link": "https://github.com/rbcheung/Weather-Dashboard"
+      "link": "https://github.com/rbcheung/Weather-Dashboard",
+      "deployed": "https://rbcheung.github.io/Weather-Dashboard/"
     },
     {
       "id": 3,
@@ -25,7 +27,8 @@
         "../Images/TeamGen.png",
       "summary": "This command-line app generates a team based on user input using node js!",
       "alt": "Screenshot of Team Profile Generator.",
-      "link": "https://github.com/rbcheung/Generate-Team-Profile"
+      "link": "https://github.com/rbcheung/Generate-Team-Profile",
+      "deployed": "https://github.com/rbcheung/Generate-Team-Profile"
     },
     {
         "id": 4,
@@ -34,7 +37,8 @@
           "../Images/Planner-App.png",
         "summary": "This app alows you to schedule appointments using local storage and moment js!",
         "alt": "Screenshot of Planner App.",
-        "link": "https://github.com/rbcheung/Calendar-Scheduler"
+        "link": "https://github.com/rbcheung/Calendar-Scheduler",
+        "deployed": "https://rbcheung.github.io/Calendar-Scheduler/"
     },
     {
         "id": 5,
@@ -43,7 +47,8 @@
           "../Images/Password-Generator.png",
         "summary": "This app allows you to create a strong password to use for all your internet activity!",
         "alt": "Screenshot of Password Generator App",
-        "link": "https://github.com/rbcheung/Password-Generator"
+        "link": "https://github.com/rbcheung/Password-Generator",
+        "deployed": "https://rbcheung.github.io/Password-Generator/"
     },
     {
         "id": 6,
@@ -52,6 +57,7 @@
           "../Images/Coding-Quiz.png",
         "summary": "This is a quiz to test your coding knowledge! highscores can be saved!",
         "alt": "Screenshot of Coding Quiz",
-        "link": "https://github.com/rbcheung/Code-Quiz"
+        "link": "https://github.com/rbcheung/Code-Quiz",
+        "deployed": "https://rbcheung.github.io/Code-Quiz/"
     }
   ]
